@@ -9,32 +9,24 @@
   <style>
     body {
       font-family: 'Inter', sans-serif;
-      color: #e74c3c; /* All text color */
-      background-color: #ccc; /* light bg for contrast */
+      color: #e74c3c;
+      background-color: #ccc;
       margin: 0;
     }
-
-    /* Header with box border */
     header {
       border: 2px solid #ccc;
     }
-
-    /* Buttons with background #e74c3c and white text */
     .btn-custom {
       background-color: #e74c3c !important;
       color: white !important;
       border: 2px solid #e74c3c !important;
       transition: background-color 0.3s ease, color 0.3s ease;
     }
-
-    /* Button hover: slightly darker red */
     .btn-custom:hover {
       background-color: #c0392b !important;
       border-color: #c0392b !important;
       color: white !important;
     }
-
-    /* Links also red, no underline */
     a {
       color: #e74c3c;
       text-decoration: none;
@@ -42,12 +34,9 @@
     a:hover {
       text-decoration: underline;
     }
-
-    /* Header text specifically */
     header h1 {
       color: #e74c3c;
     }
-
     footer {
       color: #e74c3c !important;
     }
@@ -55,14 +44,13 @@
 </head>
 <body>
 
-  <!-- Header with box border -->
   <header class="bg-white shadow-md py-4 px-6 flex items-center">
     <h1 class="text-xl font-bold">Sahil Gawad</h1>
   </header>
 
-  <!-- Hero Section -->
   <section class="bg-white py-12">
     <div class="container mx-auto text-center px-4 max-w-xl">
+      <!-- Use a placeholder image if main.png is missing -->
       <img src="main.png" alt="Your Photo" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg border" />
       <h2 class="text-3xl font-bold mb-2">Hello, I'm <span>Sahil</span></h2>
       <p class="text-lg mb-4">Web Developer | Designer | Tech Enthusiast</p>
@@ -76,17 +64,14 @@
     </div>
   </section>
 
-  <!-- Merged Buttons Side by Side -->
   <section class="py-12 bg-gray-50">
     <div class="container mx-auto flex flex-col sm:flex-row justify-center gap-6 px-4 max-w-3xl">
 
-      <!-- Days 1-3 button with custom red background -->
       <a href="https://sahilgawad.github.io/Port/" 
          class="btn btn-lg flex-1 max-w-xs text-center btn-custom">
         Days 1, 2 & 3
       </a>
 
-      <!-- Days 4-5 button with custom red background -->
       <a href="https://sahilgawad.github.io/shop-1/" 
          class="btn btn-lg flex-1 max-w-xs text-center btn-custom">
         Days 4 & 5
@@ -95,7 +80,6 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="bg-white shadow-inner py-6 mt-12 text-center text-sm">
     &copy; 2025 Sahil. Built with 💻 using HTML, Tailwind & DaisyUI.
   </footer>
